@@ -10,4 +10,9 @@ public class PaymentService {
         // Refund the payment using the specified payment method
         System.out.println("Refunding payment using " + paymentMethod);
     }
+
+    public void cancelPayment(String paymentMethod) {
+        // Cancel the payment using the specified payment method
+        System.out.println("Cancelling payment using " + paymentMethod);
+    }
 }
